@@ -1,4 +1,4 @@
-const EMAIL_PATTERN = RegExp("^(abc(.*)+(?<!\\.)@(.*))+(?<!\\.)$");
+const EMAIL_PATTERN = RegExp("(abc(.*)+(?<!\\.)@([0-9a-zA-Z]{1,}))\\.([a-zA-Z]{2})(.*)+(?<!\\.)$");
 
 
 class EmailValidator {
